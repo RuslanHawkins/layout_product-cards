@@ -14,11 +14,6 @@
     width: 160px;
     height: 134px;
     margin: 0 auto 40px;
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
   }
 
   &__title {
@@ -81,7 +76,10 @@
     font-weight: 600;
 
     border: 1px solid transparent;
-    transition: none;
+    transition:
+      background-color 0.3s,
+      color 0.3s,
+      border-color 0.3s;
 
     &:hover {
       background-color: #fff;
